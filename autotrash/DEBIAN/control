@@ -1,0 +1,13 @@
+Package: autotrash
+Version: 0.1.5-python3spark1
+Architecture: all
+Maintainer: shenmo <shenmo@spark-app.stpre>
+Installed-Size: 31
+Depends: python3
+Section: utils
+Priority: optional
+Homepage: http://www.logfish.net/pr/autotrash/
+Description: purges files from your trash based on age and/or filename
+ A script useful to purge files from your trash based on their age.
+ It can also be used to purge the files based on the filename
+ using a regular expression.
