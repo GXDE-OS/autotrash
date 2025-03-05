@@ -1,0 +1,8 @@
+#!/bin/bash
+TRANSHELL_CONTENT_HELP="\e[1mUsage: $0 -d <days>\e[0m\nCheck the deletion time of files in the Linux default trash bin. When the difference between the deletion time and the current time is greater than a specified duration, delete the file and prompt.\nOptions:\n  -d, --days <days>    Specified duration (in days)\n  -h, --help           Show this help information"
+TRANSHELL_CONTENT_TRASH_NOT_EXIST="\e[1;31mTrash directory does not exist.\e[0m"
+TRANSHELL_CONTENT_FILE_DELETED="\e[1;32mFile deleted\e[0m"
+TRANSHELL_CONTENT_INVALID_PARAM="\e[1;31mInvalid parameter:\e[0m"
+TRANSHELL_CONTENT_NO_DURATION="\e[1;31mNo duration specified.\e[0m"
+TRANSHELL_CONTENT_INVALID_DURATION="\e[1;31mInvalid duration:\e[0m"
+

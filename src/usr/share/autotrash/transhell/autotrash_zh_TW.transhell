@@ -1,0 +1,8 @@
+#!/bin/bash
+TRANSHELL_CONTENT_HELP="\e[1m使用方法: $0 -d <天數>\e[0m\n檢查 Linux 預設垃圾桶中文件的刪除時間。當刪除時間與當前時間的差大於指定的時間長度時，刪除該文件並提示。\n選項：\n  -d, --days <天數>    指定的時間長度（以天為單位）\n  -h, --help           顯示此幫助信息"
+TRANSHELL_CONTENT_TRASH_NOT_EXIST="\e[1;31m垃圾桶目錄不存在。\e[0m"
+TRANSHELL_CONTENT_FILE_DELETED="\e[1;32m刪除文件\e[0m"
+TRANSHELL_CONTENT_INVALID_PARAM="\e[1;31m無效參數：\e[0m"
+TRANSHELL_CONTENT_NO_DURATION="\e[1;31m未指定時間長度。\e[0m"
+TRANSHELL_CONTENT_INVALID_DURATION="\e[1;31m無效時間長度：\e[0m"
+

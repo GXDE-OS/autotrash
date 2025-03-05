@@ -1,0 +1,8 @@
+#!/bin/bash
+TRANSHELL_CONTENT_HELP="\e[1m用法: $0 -d <天数>\e[0m\n检查Linux默认回收站中的文件的删除时间。当删除时间和当前时间的差值大于某个指定的时长的时候，则删除并提示。\n选项：\n  -d, --days <天数>    指定的时间长度（以天为单位）\n  -h, --help           显示帮助信息"
+TRANSHELL_CONTENT_TRASH_NOT_EXIST="\e[1;31m回收站目录不存在。\e[0m"
+TRANSHELL_CONTENT_FILE_DELETED="\e[1;32m已删除文件\e[0m"
+TRANSHELL_CONTENT_INVALID_PARAM="\e[1;31m无效的参数：\e[0m"
+TRANSHELL_CONTENT_NO_DURATION="\e[1;31m未指定时间长度。\e[0m"
+TRANSHELL_CONTENT_INVALID_DURATION="\e[1;31m无效的时间长度：\e[0m"
+

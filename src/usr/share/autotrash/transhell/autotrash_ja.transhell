@@ -1,0 +1,8 @@
+#!/bin/bash
+TRANSHELL_CONTENT_HELP="\e[1m使用法: $0 -d <日数>\e[0m\nLinuxのデフォルトのゴミ箱にあるファイルの削除時間を確認します。削除時間と現在時間の差が指定された期間より大きい場合、ファイルを削除し、メッセージを表示します。\nオプション：\n  -d, --days <日数>    指定された期間（日数）\n  -h, --help           ヘルプ情報を表示"
+TRANSHELL_CONTENT_TRASH_NOT_EXIST="\e[1;31mゴミ箱ディレクトリが存在しません。\e[0m"
+TRANSHELL_CONTENT_FILE_DELETED="\e[1;32mファイルが削除されました\e[0m"
+TRANSHELL_CONTENT_INVALID_PARAM="\e[1;31m無効なパラメータです:\e[0m"
+TRANSHELL_CONTENT_NO_DURATION="\e[1;31m期間が指定されていません。\e[0m"
+TRANSHELL_CONTENT_INVALID_DURATION="\e[1;31m無効な期間です:\e[0m"
+

@@ -12,7 +12,7 @@ Rules-Requires-Root: no
 Package: autotrash
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends},python3
+Depends: ${misc:Depends},bash,transhell
 Description: purges files from your trash based on age and/or filename
  A script useful to purge files from your trash based on their age.
  It can also be used to purge the files based on the filename

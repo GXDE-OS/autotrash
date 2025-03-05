@@ -1,6 +1,5 @@
-autotrash (1.0.0) UNRELEASED; urgency=low
+autotrash (1.2.0) UNRELEASED; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Now we are autotrash-bash
 
  -- shenmo <shenmo@spark-app.store>  Sun, 10 Nov 2024 16:48:36 +0800
